@@ -6,7 +6,7 @@ const Welcome = () => {
 
     const { username, isManager, isAdmin } = useAuth()
 
-    useTitle(`techNotes: ${username}`)
+    useTitle(`JayAutos: ${username}`)
 
 
     const content = (
